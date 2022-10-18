@@ -1,7 +1,7 @@
 var yourmom = 69420;
 var xd = Math.PI * yourmom;
 var output = function() {
-   console.log(anything);
-   alert(anything);
+   console.log(xd);
+   alert(xd);
 };
-output(xd);
+output();
