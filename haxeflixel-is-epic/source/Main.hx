@@ -5,7 +5,7 @@ import flixel.FlxState;
 import sys.io.File;
 import haxe.json;
 
-typedef hello = {
+typedef Hello = {
     var funnytext:String;
     var enableSecrets:Bool;
 }
