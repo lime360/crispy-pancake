@@ -1,6 +1,4 @@
 class Game {
-  // stolen from haxe official website
-  // lol Rock Paper Scissors cli edition
   // Haxe applications have a static entry point called main
   static function main() {
     // Anonymous structures.
