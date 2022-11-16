@@ -1,12 +1,20 @@
 package;
 
 import flixel.FlxG;
-import flixel.FlxState;
 import flixel.FlxGame;
+import openfl.display.Sprite;
 
-class Main {
-    static function main()
-    {
-        FlxG.switchState(PlayState());
-    }
+// stolen from flixel-demos
+
+class Main extends Sprite
+{
+    // stolen from haxeflixel snippets
+    public var screenWidth = FlxG.width;
+    public var screenHeight = FlxG.height;
+
+	public function new()
+	{
+		super();
+		addChild(new FlxGame(screenWidth, screenHeight, PlayState));
+	}
 }
