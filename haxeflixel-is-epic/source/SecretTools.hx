@@ -12,22 +12,24 @@ typedef SecretData = {
 }
 
 class SecretTools {
-    public var funnytext = "hello world";
-    public var enableSecrets = false;
-
-    var fart = sys.io.File.read("assets/data/hello.json");
-    var parsedShit:SecretData = haxe.Json.parse(fart);
-
-    trace(funnytext);
-
-    if (funnytext == null) {
-        funnytext = "no funny text :(";
-    }
-
-    if (enableSecrets == false) {
-        trace("secrets are disabled");
-    }
-    else if (enableSecrets == true) {
-        trace("secrets are enables");
+    override public function create() {
+        public var funnytext = "hello world";
+        public var enableSecrets = false;
+    
+        var fart = sys.io.File.read("assets/data/hello.json");
+        var parsedShit:SecretData = haxe.Json.parse(fart);
+    
+        trace(funnytext);
+    
+        if (funnytext == null) {
+            funnytext = "no funny text :(";
+        }
+    
+        if (enableSecrets == false) {
+            trace("secrets are disabled");
+        }
+        else if (enableSecrets == true) {
+            trace("secrets are enables");
+        }
     }
 }
