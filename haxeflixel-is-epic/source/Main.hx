@@ -5,7 +5,7 @@ import flixel.FlxState;
 import flixel.FlxGame;
 
 class Main {
-    public function Main()
+    static public function Main()
     {
         FlxG.switchState(PlayState());
     }
