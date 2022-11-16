@@ -12,7 +12,7 @@ typedef SecretData = {
 }
 
 class SecretTools {
-    
+
     public var funnytext = "hello world";
     public var enableSecrets = false;
 
@@ -34,4 +34,5 @@ class SecretTools {
             trace("secrets are enables");
         }
     }
+    super.create();
 }

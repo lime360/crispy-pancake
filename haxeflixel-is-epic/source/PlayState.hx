@@ -22,4 +22,5 @@ class PlayState extends FlxState {
             FlxG.camera.flash(FlxColor.WHITE, 0.33);
         }
     }
+    super.create();
 }
