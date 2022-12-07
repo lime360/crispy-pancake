@@ -1,4 +1,4 @@
-# crispy-pancake
-This is a dumb collection of code I made or stole from various sources
+# crispy pancake
+this is a collection of code i made or stole (STOLEN CODE IS ALWAYS CREDITED)
 
-This repo is being actively updated because I want it to be a sandbox for my coding practices
+i made this repo for my coding practice or just first random game engine project stuff
