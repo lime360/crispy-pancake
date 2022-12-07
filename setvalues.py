@@ -7,12 +7,11 @@ def changeValue(type, value):
         print(testVar + value)
     elif type == "subtractValue":
         print(testVar - value)
-    elif type == "setValue":
-        print(testVar = value)
 
 print(testVar)
-
 changeValue("addValue", 40)
+changeValue("subtractValue", 10)
+changeValue("setValue", 0)
 
-# value 1: type of the value changine process (can be addValue, subtractValue or setValue)
+# value 1: type of the value changing process (can be addValue or subtractValue)
 # value 2: number
