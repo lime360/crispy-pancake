@@ -10,8 +10,6 @@ def changeValue(type, value):
     elif type == "setValue":
         print(testVar = value)
 
-print("ok im gonna demonstarate a funny custom function i made in python")
-
 print(testVar)
 
 changeValue("addValue", 40)
