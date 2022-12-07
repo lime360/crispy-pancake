@@ -11,7 +11,6 @@ def changeValue(type, value):
 print(testVar)
 changeValue("addValue", 40)
 changeValue("subtractValue", 10)
-changeValue("setValue", 0)
 
 # value 1: type of the value changing process (can be addValue or subtractValue)
 # value 2: number
