@@ -13,3 +13,4 @@ that the script files work
 - [whattimeisit.py](https://www.online-python.com/tRj8OSMsyF)
 - [aaaaaaaaaaa.html + weed.css + shit.js](https://codepen.io/lime360/pen/KKBMMvj)
 - [coolstuff.lua](https://jdoodle.com/ia/BJP)
+- [yo.cs](https://jdoodle.com/ia/BKV)
